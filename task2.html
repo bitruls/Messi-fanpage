@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4267B2;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .content, .table-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 45%;
+        }
+        svg {
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+
+        img {
+            max-width: 100%; /* Ensures the image doesn't exceed the container's width */
+            height: auto; /* Maintains the image's aspect ratio */
+            display: block; /* Removes extra space below the image */
+            margin: 10px auto; /* Centers the image inside its container */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <svg width="150" height="100">
+            <rect width="100%" height="100%" fill="red" stroke="blue" stroke-width="25"/>
+            <circle cx="75" cy="50" r="35" fill="blue" />
+            <text x="72" y="70" font-size="55" text-anchor="middle" fill="gold">10</text>
+        </svg>
+
+        <h1>Lionel Messi fanpage</h1>
+        <p>The purpose of this website is to inform you about the GOAT Leo</p>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>The website's content</h2>
+            <ul>
+                <li>Direct link to VG LIVE to see livescore's of Messi's games</li>
+                <li>Image of the GOAT</li>
+                <li>Pro's and con's with the goat</li>
+            </ul>
+            <p><a href="https://vglive.vg.no/" target="_blank">VG LIVE</a></p>
+            <img src="goat.webp" alt="Sample image">
+        </div>
+
+        <div class="table-container">
+            <h2>Pro's and cons with Leo</h2>
+            <table border="1" width="100%">
+                <tr>
+                    <th>Pro's</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>Goal scorer</td>
+                    <td>weak physical</td>
+                </tr>
+                <tr>
+                    <td>Playmaker</td>
+                    <td>old</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
